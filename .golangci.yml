@@ -1,0 +1,17 @@
+linters:
+  fast: true
+  presets:
+    - bugs
+    - comment
+    - complexity
+    - performance
+    - style
+    - unused
+
+linters-settings:
+  funlen:
+    lines: 100
+    statements: 60
+
+issues:
+  fix: true
